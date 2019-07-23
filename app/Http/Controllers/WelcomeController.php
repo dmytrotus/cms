@@ -25,7 +25,7 @@ class WelcomeController extends Controller
     	} else {
 
     		//$posts = Post::all();
-    		$posts = Post::simplePaginate(1);
+    		$posts = Post::simplePaginate(3);
     	}
 
     	return view('welcome')
