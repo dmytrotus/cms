@@ -1,2 +1,2 @@
 # cms
-little blog made using laravel framework
+little blog I've made, using laravel framework
