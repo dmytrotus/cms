@@ -70,3 +70,19 @@ Route::get('allproducts', 'FrontEndController@products');
 /*Галерея*/
 
 Route::get('posts/{postId}/admin/gallery','GalleryController@index');
+
+/*Роути для інших тем*/
+
+Route::get('projects/colorlib1', function(){
+	return view('projects.colorlib_1.index');
+});
+
+Route::get('projects/colorlib2', function(){
+	return view('projects.colorlib_2.index');
+});
+
+Route::get('projects/colorlib2_iframe', function(){
+	return view('projects.colorlib_2.index_iframe');
+});
+
+/*Роути для інших тем*/
